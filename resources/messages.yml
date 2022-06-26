@@ -1,0 +1,25 @@
+###█▀▀ █▀▀ █░░ █░░ █▀▀█ █░░ █░░
+##▀▀█ █▀▀ █░░ █░░ █▄▄█ █░░ █░░
+#▀▀▀ ▀▀▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀▀▀ ▀▀▀
+#DO NOT CHANGE
+cfgversion: 1.3
+# MESSAGES
+#change the messages sent in this plugin
+
+reload: "&e&lNotice: &r&7 Đã reloadsell"
+
+error.permission: "&c&lLỗi: &r&7Bạn không quyền xài lệnh này"
+
+error.not-found: "&c&lLỗi: &rBạn Không thể bán món này"
+
+error.argument: "&c&lLệnh: &r&7/sell &7{ARGS}"
+separator: "&8|&7"
+#the above value tells the plugin how to seperate the arguments in {ARGS}
+
+#use the variables:{AMOUNT}, {ITEMNAME} and {MONEY} and they will get replaced by their value.
+success.sell: "&rĐã Bán&r&7Được &a{AMOUNT} {ITEMNAME} &rNhận được &e{MONEY} Money"
+
+#the message when someone executes "/sell inventory"
+success.sell.inventory: "&rĐã Bán hết đồ trong kho đồ và nhận được §e{MONEY} Money"
+
+error.no.sellables: "&cLỗi: &rBạn không có gì để bán"
